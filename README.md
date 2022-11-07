@@ -24,6 +24,7 @@ https://habr.com/ru/post/597389/
 
 step5
 eslint install and config
+vsc plugin eslint
 eslint-plugin-react - for react hooks rules
 eslint-plugin-react-hooks
 @typescript-eslint/parser
@@ -34,3 +35,11 @@ eslint-plugin-jsx-a11y
   еще добавляем команду "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"", - исправить принудительно или обозначить ошибки в консоль
 
   !!Пройти по всем настройкам и расшифровать
+
+  step6
+  prettier форматирование кода
+  vsc plugin prettier
+  prettier eslint-config-prettier eslint-plugin-prettier
+  добавили prettierrc.js правила и добавили использование в еслинт настройку плагинов
+  и команду добавили  "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+  так же рекомендация при сохранении автоматом выравнивать settings -> search format -> Editor Format on Save: true
