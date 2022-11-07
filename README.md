@@ -21,3 +21,16 @@ function react refresh (plugin)
 https://www.youtube.com/watch?v=xKQ2rEoYmXw&list=PLC3y8-rFHvwiWPS2RO3BKotLRfgg_8WEo&index=4
 
 https://habr.com/ru/post/597389/
+
+step5
+eslint install and config
+eslint-plugin-react - for react hooks rules
+eslint-plugin-react-hooks
+@typescript-eslint/parser
+@typescript-eslint/eslint-plugin
+eslint-plugin-import  - проверка
+eslint-plugin-jsx-a11y
+  и добавляем под них настройки в еслинт
+  еще добавляем команду "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"", - исправить принудительно или обозначить ошибки в консоль
+
+  !!Пройти по всем настройкам и расшифровать

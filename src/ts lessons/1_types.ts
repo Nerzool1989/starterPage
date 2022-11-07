@@ -1,12 +1,12 @@
 //Примитивы
 
-const isSomething: boolean = false;
+const isSomething = false;
 
-const int: number = 42;
-const float: number = 3.5;
-const num: number = 3e10;
+const int = 42;
+const float = 3.5;
+const num = 3e10;
 
-const message: string = "Hello";
+const message = "Hello";
 
 const numberArray: number[] = [1, 2, 3, 4] //array from number
 const numberArray2: Array<number> = [1, 2, 3, 1]; //generic альтернативная запись (Array - это класс или объект)
@@ -21,13 +21,13 @@ variable = 'string'
 //void - ничего не возвращает
 function sayMyName(name: string): void {
     console.log(name)
-};
+}
 sayMyName('ss');
 
 //Never  - выдает оишбку и никогда не заканчивается, постоянно что либо делает
 function throwError(message: string): never {
     throw new Error(message);
-};
+}
 
 function infinite(): never {
     while(true){}

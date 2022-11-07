@@ -6,7 +6,10 @@ import { ClickCounter } from "./ClickCounter";
 
 console.log(process.env);
 
+
 export const App = () => {
+   const sdf = 0;
+
     return (
         <div>
             <h1>Hello, it's a  and name from webpack files </h1>

@@ -7,7 +7,7 @@ interface Rect {
         width: number,
         height: number,
     } 
-};
+}
 
 const Rect1: Rect = {
     id: '11231',
@@ -35,7 +35,7 @@ const rect4 = <Rect>{} //старый способ объявления
 
 interface RectWithArea extends Rect {
     getArea: () => number,
-};
+}
 
 const rect5: RectWithArea = {
     id: 'asdfasf',
