@@ -2,6 +2,10 @@ const webpack = require("webpack");
 
 module.exports = {
     mode: 'development',
+    devServer: {
+        hot: true, //перезагружает не весь проект а моудлями
+        open: true //запускает в дефолтном браузере сборку (для реакта нужен до плагин еще)
+    },
     devtool: 'cheap-module-source-map', //это то как код разделяется и собирается в последующем (рекомендация разрабов)
     resolve: {
     },

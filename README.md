@@ -14,3 +14,10 @@ step 3
 process env поставил пакет и есть доступ из браузера, но свою переменную из ноды я подключить не могу, нужно читать гайды
 ВЫЯСНИТЬ что за DefinePlugin / ProvidePlugin / все разделы внутри схемы вебпака на расшифровку
 https://www.robinwieruch.de/webpack-advanced-setup-tutorial/ - как сделать process и протащить из ноды в глобал и браузер
+
+step4 
+function react refresh (plugin)
+Суть заключается в том чтобы перерендерить только изменившиеся компоненты и не трогать то что не изменилось
+https://www.youtube.com/watch?v=xKQ2rEoYmXw&list=PLC3y8-rFHvwiWPS2RO3BKotLRfgg_8WEo&index=4
+
+https://habr.com/ru/post/597389/
