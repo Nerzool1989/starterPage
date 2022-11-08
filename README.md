@@ -43,3 +43,21 @@ eslint-plugin-jsx-a11y
   добавили prettierrc.js правила и добавили использование в еслинт настройку плагинов
   и команду добавили  "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
   так же рекомендация при сохранении автоматом выравнивать settings -> search format -> Editor Format on Save: true
+
+  step7
+  внесение изменений при комите от еслинта и претир
+  используем husky lint-staged
+  добавляем поэтапную конфигурацию в package.json
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged" //заставляет запускать линт стейдж на этапе перед камитом
+    }
+  },
+  "lint-staged": {  //говорит о запуске еслинта и преттира
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "eslint --fix"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
