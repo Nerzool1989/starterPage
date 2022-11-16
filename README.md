@@ -62,3 +62,23 @@ eslint-plugin-jsx-a11y
       "prettier --write"
     ]
   }
+  я ее убрал из кода
+  
+step8
+@babel/runtime
+@babel/plugin-transform-runtime
+и включаем их в babelrc (раскомент)
+дальше ставим copy-webpack-plugin
+и раскоментируем настройки в webpack.common.js
+далее ставим webpack-bundle-analyzer     для оценки размера бандла
+идем webpack.prod.js и раскометируем
+и при запуске npm run build откроется страница анализа пакетов
+Кстати у него на гитхабе https://github.com/gopinav/React-TypeScript-Webpack-Starter есть интересная команда прямого скачивания для изучения
+
+setup express js for stub
+express + mongodb?
+express validator 
+bcryptjs?
+add config js?
+jsonwebtoken
+materializecss
